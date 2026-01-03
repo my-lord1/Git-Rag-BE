@@ -1,0 +1,11 @@
+fastapi
+fastapi-cli
+uvicorn
+python-dotenv
+requests
+
+pinecone
+langchain
+langchain-text-splitters
+langchain-google-genai
+langchain-community
