@@ -2,8 +2,8 @@
 
 This project lets users paste a GitHub repository link and ask questions about the code. It fetches the repo files, finds the most relevant parts, and uses AI to answer questions based on the actual code. This helps developers understand repositories faster without reading every file.
 
-This repo is for backend of this project:  
-[For Frontend Purposes](https://github.com/my-lord1/Git-Rag-FE)
+This repo is for backend of this project  
+[For frontend purposes click here](https://github.com/my-lord1/Git-Rag-FE)
 
 ---
 
@@ -13,10 +13,10 @@ This repo is for backend of this project:
 - Python
 - LangChain – chain orchestration
 - Vector Database – Pinecone
-- Embedding Models – Pinecone LLaMA model
+- Embedding Models – Pinecone Llama model
 - LLM – gemini-2.5-flash
 - Fetching repository – GitHub API
-- Chunking – Custom logic to split files into smaller readable chunks
+- Chunking – Custom logic
 
 ---
 
