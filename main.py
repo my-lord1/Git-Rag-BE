@@ -7,10 +7,10 @@ from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.documents import Document
 from langchain_core.retrievers import BaseRetriever
 from fastapi.middleware.cors import CORSMiddleware
-from .github_fetch import fetch_repo_files, normalize_repo
-from .chunking import chunk_files
-from .pinecone_db import embed_and_store, search, get_repo_stats, delete_all_repos
-from .helper import conversation_store, ConversationState, rewrite_question, update_summary, MAX_TURNS, SUMMARY_UPDATE_EVERY
+from github_fetch import fetch_repo_files, normalize_repo
+from chunking import chunk_files
+from pinecone_db import embed_and_store, search, get_repo_stats, delete_all_repos
+from helper import conversation_store, ConversationState, rewrite_question, update_summary, MAX_TURNS, SUMMARY_UPDATE_EVERY
 
 load_dotenv()
 
